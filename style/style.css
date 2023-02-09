@@ -173,84 +173,84 @@ nav .menu-btn i{
   font-size: 1.5rem;
   font-weight: 700;
 }
-.card-container{
+.content .card-container{
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10%;
-  margin-right: 10%;
-  justify-content: space-around;
-  padding: 10px 50px 50px ;
+  margin-left: 9%;
+  margin-right: 9%;
+  justify-content: space-between;
+  padding: 0 1em 1em 1em;
 }
 
-.card{
+.content .card-container .card{
   background: transparent;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  height: 450px;
-  width: 12em;
+  margin :0;
+  height: 15em;
+  width: 10em;
   display: flex;
   flex-direction: column;
 }
-.card .mainimage{
+.content .card-container .card .mainimage{
   background:transparent;
-  padding: 15px;
+  padding: 0.5em;
 }
-.card .mainimage img{
+.content .card-container .card .mainimage img{
   width: 100%;
+  height: 105%;
   background: transparent;
 }
-.card:hover .mainimage{
+.content .card-container .card:hover .mainimage{
   padding: 0px;
   
 }
-.card:hover h4{
+.content .card-container .card:hover h4{
   text-decoration: underline;
 }
 
-.card h4{
-  font-size: 1rem;
+.content .card-container .card h4{
+  flex: 2;
+  font-size: 0.5em;
   text-align: left;
   word-wrap: break-word;
-  padding: 10px;
+  padding: 0.5em;
   text-align: left;
-  flex: 2;
 }
-.card .infoproduct
+.content .card-container .card .infoproduct
 {
-  font-size: 1rem;
+  font-size: 0.5em;
   font-weight: lighter;
   text-align: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
-.card .price{
-  font-size: 1rem;
+.content .card-container .card .price{
+  font-size: 0.5em;
   text-align: left;
   word-wrap: break-word;
-  padding: 10px;
+  padding: 0.5em;
   text-align: left;
 }
-.card .containimg{
+.content .card-container .card .containimg{
   display: flex;
-  padding-left: 10px;
-  padding-right: 10px
+  padding-left: 0.1em;
+  padding-right: 0.1em;
 }
-.card .containimg img{
+.content .card-container .card .containimg img{
   width: 1.8em;
 }
 
 .topfilter{
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 50px 50px 10px;
+  margin-left: 9%;
+  margin-right: 9%;
+  padding: 50px 50px 10px 30px;
 }
 
 .topfilter h3{
   font-size: 1.8em;
   text-align: left;
+  margin-bottom: 0.5em;
 }
 
 .topfilter .row{
@@ -272,9 +272,104 @@ nav .menu-btn i{
 
 .topfilter .row ul li{
   font-weight: lighter;
-  font-size: 0.7em;
+  font-size: 0.5em;
   text-align: left;
   padding: 0px 15px 0px 0px;
+}
+.topfilter .row ul li img{
+  width:1em;
+  margin-left: 0.3em;
+}
+
+@media(max-width:1350px)
+{
+  .content .card-container .card{
+    height: 13em;
+    width: 8em;
+  }
+  .content .card-container .card h4{
+   
+    font-size: 0.42em;
+    padding: 0.5em;
+  }
+  .content .card-container .card .infoproduct
+  {
+    font-size: 0.42em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .content .card-container .card .price{
+    font-size: 0.42em;
+    text-align: left;
+    word-wrap: break-word;
+    padding: 0.5em;
+    text-align: left;
+  }
+  .content .card-container .card .containimg img{
+    width: 1.5em;
+  }
+
+  .topfilter h3{
+    margin-bottom: 0;
+    font-size: 1.2em;
+  }
+  .topfilter .row h4{
+    font-size: 0.6em;
+  }
+  .topfilter .row ul li{
+    
+    padding: 5px 5px 5px 0px;
+    font-size: 0.4em;
+  }
+}
+@media(max-width:1100px)
+{
+  .content .card-container{
+    margin: 0 5% 0;
+  }
+  .content .card-container .card{
+    height: 9.5em;
+    width: 6em;
+  }
+  .content .card-container .card h4{
+   
+    font-size: 0.32em;
+    padding: 0.5em;
+  }
+  .content .card-container .card .infoproduct
+  {
+    font-size: 0.32em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .content .card-container .card .price{
+    font-size: 0.32em;
+    text-align: left;
+    word-wrap: break-word;
+    padding: 0.5em;
+    text-align: left;
+  }
+  .content .card-container .card .containimg img{
+    width: 1em;
+  }
+
+  .topfilter{
+    margin: 0 5% 0;
+    padding: 50px 50px 10px 23px;
+  }
+  
+  .topfilter h3{
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+  .topfilter .row h4{
+    font-size: 0.5em;
+  }
+  .topfilter .row ul li{
+    
+    padding: 5px 5px 5px 0px;
+    font-size: 0.3em;
+  }
 }
 
 /* Content */
