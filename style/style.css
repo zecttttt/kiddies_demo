@@ -185,11 +185,22 @@ nav .menu-btn i{
 .content .card-container .card{
   background: transparent;
   margin :0;
-  height: 15em;
-  width: 10em;
+  margin-bottom: 15px;
+  height: 20em;
+  width: 13em;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
+.content .card-container .card:link{
+  text-decoration: none;
+
+}
+
+.content .card-container .card:visited{
+  color: black;
+}
+
 .content .card-container .card .mainimage{
   background:transparent;
   padding: 0.5em;
@@ -200,7 +211,7 @@ nav .menu-btn i{
   background: transparent;
 }
 .content .card-container .card:hover .mainimage{
-  padding: 0px;
+  padding: 5px;
   
 }
 .content .card-container .card:hover h4{
@@ -209,22 +220,23 @@ nav .menu-btn i{
 
 .content .card-container .card h4{
   flex: 2;
-  font-size: 0.5em;
+  font-size: 0.7em;
   text-align: left;
   word-wrap: break-word;
   padding: 0.5em;
+  margin-top: 1em;
   text-align: left;
 }
 .content .card-container .card .infoproduct
 {
-  font-size: 0.5em;
+  font-size: 0.7em;
   font-weight: lighter;
   text-align: left;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 .content .card-container .card .price{
-  font-size: 0.5em;
+  font-size: 0.7em;
   text-align: left;
   word-wrap: break-word;
   padding: 0.5em;
@@ -244,7 +256,7 @@ nav .menu-btn i{
   flex-direction: column;
   margin-left: 9%;
   margin-right: 9%;
-  padding: 50px 50px 10px 30px;
+  padding: 50px 35px 10px 30px;
 }
 
 .topfilter h3{
@@ -258,6 +270,7 @@ nav .menu-btn i{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  
 }
 .topfilter .row ul{
   padding: 0px;
@@ -268,6 +281,8 @@ nav .menu-btn i{
 }
 .topfilter .row h4{
   font-size: 0.7em;
+  padding-top: 0.4em;
+  
 }
 
 .topfilter .row ul li{
@@ -281,25 +296,26 @@ nav .menu-btn i{
   margin-left: 0.3em;
 }
 
-@media(max-width:1350px)
+@media(max-width:1660px) 
+/* 1660 */
 {
   .content .card-container .card{
-    height: 13em;
-    width: 8em;
+    height: 17em;
+    width: 11em;
   }
   .content .card-container .card h4{
    
-    font-size: 0.42em;
+    font-size: 0.55em;
     padding: 0.5em;
   }
   .content .card-container .card .infoproduct
   {
-    font-size: 0.42em;
+    font-size: 0.55em;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
   .content .card-container .card .price{
-    font-size: 0.42em;
+    font-size: 0.55em;
     text-align: left;
     word-wrap: break-word;
     padding: 0.5em;
@@ -314,36 +330,43 @@ nav .menu-btn i{
     font-size: 1.2em;
   }
   .topfilter .row h4{
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
   .topfilter .row ul li{
     
     padding: 5px 5px 5px 0px;
     font-size: 0.4em;
   }
+  .topfilter .row h4{
+    padding-top: 1.2em;
+  }
 }
-@media(max-width:1100px)
+@media(max-width:1440px)
 {
   .content .card-container{
     margin: 0 5% 0;
   }
   .content .card-container .card{
-    height: 9.5em;
-    width: 6em;
+    height: 15.2em;
+    width: 10em;
   }
+
+  #link-card{
+    text-decoration: none;
+  }
+
   .content .card-container .card h4{
-   
-    font-size: 0.32em;
+    font-size: 0.50em;
     padding: 0.5em;
   }
   .content .card-container .card .infoproduct
   {
-    font-size: 0.32em;
+    font-size: 0.50em;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
   .content .card-container .card .price{
-    font-size: 0.32em;
+    font-size: 0.50em;
     text-align: left;
     word-wrap: break-word;
     padding: 0.5em;
@@ -355,7 +378,7 @@ nav .menu-btn i{
 
   .topfilter{
     margin: 0 5% 0;
-    padding: 50px 50px 10px 23px;
+    padding: 50px 35px 10px 23px;
   }
   
   .topfilter h3{
@@ -363,6 +386,7 @@ nav .menu-btn i{
     font-size: 1em;
   }
   .topfilter .row h4{
+    padding-top: 1em;
     font-size: 0.5em;
   }
   .topfilter .row ul li{
