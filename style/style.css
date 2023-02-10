@@ -185,7 +185,6 @@ nav .menu-btn i{
 .content .card-container .card{
   background: transparent;
   margin :0 3% 15px;
-  margin-bottom: 15px;
   height: 17em;
   width: 10.5em;
   display: flex;
@@ -211,11 +210,16 @@ nav .menu-btn i{
   background: transparent;
 }
 .content .card-container .card:hover .mainimage{
-  padding: 5px;
-  
+  padding: 5px;  
 }
+
 .content .card-container .card:hover h4{
   text-decoration: underline;
+}
+
+.content .card-container .card:hover .mainimage img{
+  border-radius: 25px;
+  background-color: #dfdfdf;
 }
 
 .content .card-container .card h4{
@@ -356,20 +360,20 @@ nav .menu-btn i{
 }
 @media (max-width:1290px) {
   .content .card-container .card{
-    height: 9.5em;
-    width: 5.8em;
+    height: 10.2em;
+    width: 6em;
   }
   .content .card-container .card h4{
-    font-size: 0.31em;
+    font-size: 0.34em;
    
   }
   .content .card-container .card .infoproduct
   {
-    font-size: 0.31em;
+    font-size: 0.34em;
     
   }
   .content .card-container .card .price{
-    font-size: 0.31em;
+    font-size: 0.34em;
     
   }
   .content .card-container .card .containimg img{
@@ -388,22 +392,22 @@ nav .menu-btn i{
   }
   
 }
-@media (max-width: 1040px) {
+@media (max-width: 1065px) {
   .content .card-container .card{
-    height: 8em;
-    width: 4.5em;
+    height: 9.3em;
+    width: 5.5em;
   }
   .content .card-container .card h4{
-    font-size: 0.25em;
+    font-size: 0.31em;
    
   }
   .content .card-container .card .infoproduct
   {
-    font-size: 0.25em;
+    font-size: 0.31em;
     
   }
   .content .card-container .card .price{
-    font-size: 0.25em;
+    font-size: 0.31em;
     
   }
   .content .card-container .card .containimg img{
@@ -421,7 +425,7 @@ nav .menu-btn i{
     
   }
 }
-@media(max-width: 811px)
+@media(max-width: 982px)
 {
   .topfilter .row{
     display: none;
