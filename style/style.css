@@ -256,7 +256,7 @@ nav .menu-btn i{
   flex-direction: column;
   margin-left: 9%;
   margin-right: 9%;
-  padding: 50px 35px 10px 30px;
+  padding: 3em 3em 1em 2em;
 }
 
 .topfilter h3{
@@ -296,7 +296,7 @@ nav .menu-btn i{
   margin-left: 0.3em;
 }
 
-@media (max-width:1735px) {
+@media (max-width:1753px) {
   .content .card-container .card{
     margin :0 3% 15px;
     margin-bottom: 15px;
@@ -320,7 +320,7 @@ nav .menu-btn i{
  
   
 }
-@media (max-width:1504px) {
+@media (max-width:1522px) {
   .content .card-container .card{
     height: 13em;
     width: 7.5em;
@@ -342,8 +342,94 @@ nav .menu-btn i{
   .content .card-container .card .containimg img{
     width: 1.5em;
   }
+  .topfilter h3{
+    font-size: 1.5em;
+  }
+  .topfilter .row h4{
+    font-size: 0.5em;
+    
+  }
+  .topfilter .row ul li{
+    font-size: 0.4em;
+    
+  }
 }
-
+@media (max-width:1290px) {
+  .content .card-container .card{
+    height: 9.5em;
+    width: 5.8em;
+  }
+  .content .card-container .card h4{
+    font-size: 0.31em;
+   
+  }
+  .content .card-container .card .infoproduct
+  {
+    font-size: 0.31em;
+    
+  }
+  .content .card-container .card .price{
+    font-size: 0.31em;
+    
+  }
+  .content .card-container .card .containimg img{
+    width: 1.2em;
+  }
+  .topfilter h3{
+    font-size: 1.5em;
+  }
+  .topfilter .row h4{
+    font-size: 0.5em;
+    
+  }
+  .topfilter .row ul li{
+    font-size: 0.4em;
+    
+  }
+  
+}
+@media (max-width: 1040px) {
+  .content .card-container .card{
+    height: 8em;
+    width: 4.5em;
+  }
+  .content .card-container .card h4{
+    font-size: 0.25em;
+   
+  }
+  .content .card-container .card .infoproduct
+  {
+    font-size: 0.25em;
+    
+  }
+  .content .card-container .card .price{
+    font-size: 0.25em;
+    
+  }
+  .content .card-container .card .containimg img{
+    width: 1em;
+  }
+  .topfilter h3{
+    font-size: 1.2em;
+  }
+  .topfilter .row h4{
+    font-size: 0.3em;
+    
+  }
+  .topfilter .row ul li{
+    font-size: 0.3em;
+    
+  }
+}
+@media(max-width: 811px)
+{
+  .topfilter .row{
+    display: none;
+  }
+  .topfilter h3{
+    font-size: 1em;
+  }
+}
 
 /* Content */
 
