@@ -174,22 +174,22 @@ nav .menu-btn i{
   font-weight: 700;
 }
 .content .card-container{
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 9%;
-  margin-right: 9%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 8%;
+  margin-right: 8%;
   justify-content: space-between;
   padding: 0 1em 1em 1em;
 }
 
 .content .card-container .card{
   background: transparent;
-  margin :0 3% 15px;
-  height: 17em;
+  margin :0 1em 1.5em;
+  height: 17.3em;
   width: 10.5em;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .content .card-container .card:link{
   text-decoration: none;
@@ -223,7 +223,7 @@ nav .menu-btn i{
 }
 
 .content .card-container .card h4{
-  flex: 2;
+  flex :2;
   font-size: 0.56em;
   text-align: left;
   word-wrap: break-word;
@@ -258,8 +258,8 @@ nav .menu-btn i{
 .topfilter{
   display: flex;
   flex-direction: column;
-  margin-left: 9%;
-  margin-right: 9%;
+  margin-left: 6em;
+  margin-right: 6em;
   padding: 3em 3em 1em 2em;
 }
 
@@ -300,7 +300,143 @@ nav .menu-btn i{
   margin-left: 0.3em;
 }
 
-@media (max-width:1753px) {
+@media (max-width:1585px)
+{
+  .content .card-container{
+    margin:0 6% 0 ;
+
+  }
+  .content .card-container .card{
+    margin :0 0 1.5em;
+    height: 15.2em;
+    width: 9.5em;
+  }
+  .content .card-container .card h4{
+    font-size: 0.5em;
+  }
+  .content .card-container .card .infoproduct
+  {
+    font-size: 0.5em;  
+  }
+  .content .card-container .card .price{
+    font-size: 0.5em;
+  }
+  .topfilter{
+    margin-left: 2em;
+    margin-right: 4em;
+    padding: 3em 1.5em 1em 2em;
+  }
+  .topfilter .row h4{
+    font-size: 0.45em;   
+  }
+  
+  .topfilter .row ul li{
+    font-size: 0.48em;
+  }
+  .topfilter h3{
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 1250px)
+{
+  .content .card-container{
+    margin:0 4% 0 ;
+
+  }
+  .content .card-container .card{
+    margin :0 0 1.5em;
+    height: 13em;
+    width: 8em;
+  }
+  .content .card-container .card h4{
+    font-size: 0.45em;
+  }
+  .content .card-container .card .infoproduct
+  {
+    font-size: 0.45em;  
+  }
+  .content .card-container .card .price{
+    font-size: 0.45em;
+  }
+  .topfilter{
+    padding: 3em 3em 1em 2em;
+    margin: 0;
+  }
+  .topfilter .row h4{
+    font-size: 0.5em;   
+  }
+  
+  .topfilter .row ul li{
+    font-size: 0.45em;
+  }
+  .topfilter h3{
+    font-size: 1.2em;
+  }
+  .content .card-container .card .containimg img{
+    width: 1.3em;
+  }
+}
+
+@media (max-width: 965px)
+{
+  .content .card-container{
+    margin:0 3% 0 ;
+
+  }
+  .content .card-container .card{
+    margin :0 0 1.5em;
+    height: 11em;
+    width: 6.5em;
+  }
+  .content .card-container .card h4{
+    font-size: 0.36em;
+  }
+  .content .card-container .card .infoproduct
+  {
+    font-size: 0.36em;  
+  }
+  .content .card-container .card .price{
+    font-size: 0.36em;
+  }
+
+  .topfilter .row h4{
+    font-size: 0.5em;   
+  }
+  
+  .topfilter .row ul li{
+    font-size: 0.45em;
+  }
+  .topfilter h3{
+    font-size: 1.2em;
+  }
+}
+@media (max-width : 840px)
+{
+  .content .card-container{
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (max-width : 730px)
+{
+  .topfilter .row ul{
+    display: none;
+  }
+  .topfilter .row{
+    justify-content: flex-end;
+  }
+}
+@media(max-width:630px)
+{
+  .content .card-container{
+    grid-template-columns: auto auto;
+  }
+  .topfilter .row{
+    display: none;
+  }
+}
+
+/* @media (max-width:1753px) {
   .content .card-container .card{
     margin :0 3% 15px;
     margin-bottom: 15px;
@@ -433,7 +569,7 @@ nav .menu-btn i{
   .topfilter h3{
     font-size: 1em;
   }
-}
+} */
 
 /* Content */
 
