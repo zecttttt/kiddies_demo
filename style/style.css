@@ -190,6 +190,7 @@ nav .menu-btn i{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: black;
 }
 .content .card-container .card:link{
   text-decoration: none;
@@ -436,140 +437,6 @@ nav .menu-btn i{
   }
 }
 
-/* @media (max-width:1753px) {
-  .content .card-container .card{
-    margin :0 3% 15px;
-    margin-bottom: 15px;
-    height: 15.3em;
-    width: 9em;
-  }
-  .content .card-container .card h4{
-    flex: 2;
-    font-size: 0.5em;
-   
-  }
-  .content .card-container .card .infoproduct
-  {
-    font-size: 0.5em;
-    
-  }
-  .content .card-container .card .price{
-    font-size: 0.5em;
-    
-  }
- 
-  
-}
-@media (max-width:1522px) {
-  .content .card-container .card{
-    height: 13em;
-    width: 7.5em;
-  }
-  .content .card-container .card h4{
-    flex: 2;
-    font-size: 0.42em;
-   
-  }
-  .content .card-container .card .infoproduct
-  {
-    font-size: 0.42em;
-    
-  }
-  .content .card-container .card .price{
-    font-size: 0.42em;
-    
-  }
-  .content .card-container .card .containimg img{
-    width: 1.5em;
-  }
-  .topfilter h3{
-    font-size: 1.5em;
-  }
-  .topfilter .row h4{
-    font-size: 0.5em;
-    
-  }
-  .topfilter .row ul li{
-    font-size: 0.4em;
-    
-  }
-}
-@media (max-width:1290px) {
-  .content .card-container .card{
-    height: 10.2em;
-    width: 6em;
-  }
-  .content .card-container .card h4{
-    font-size: 0.34em;
-   
-  }
-  .content .card-container .card .infoproduct
-  {
-    font-size: 0.34em;
-    
-  }
-  .content .card-container .card .price{
-    font-size: 0.34em;
-    
-  }
-  .content .card-container .card .containimg img{
-    width: 1.2em;
-  }
-  .topfilter h3{
-    font-size: 1.5em;
-  }
-  .topfilter .row h4{
-    font-size: 0.5em;
-    
-  }
-  .topfilter .row ul li{
-    font-size: 0.4em;
-    
-  }
-  
-}
-@media (max-width: 1065px) {
-  .content .card-container .card{
-    height: 9.3em;
-    width: 5.5em;
-  }
-  .content .card-container .card h4{
-    font-size: 0.31em;
-   
-  }
-  .content .card-container .card .infoproduct
-  {
-    font-size: 0.31em;
-    
-  }
-  .content .card-container .card .price{
-    font-size: 0.31em;
-    
-  }
-  .content .card-container .card .containimg img{
-    width: 1em;
-  }
-  .topfilter h3{
-    font-size: 1.2em;
-  }
-  .topfilter .row h4{
-    font-size: 0.3em;
-    
-  }
-  .topfilter .row ul li{
-    font-size: 0.3em;
-    
-  }
-}
-@media(max-width: 982px)
-{
-  .topfilter .row{
-    display: none;
-  }
-  .topfilter h3{
-    font-size: 1em;
-  }
-} */
 
 /* Content */
 
