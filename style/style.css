@@ -435,6 +435,19 @@ nav .menu-btn i{
   .topfilter .row{
     display: none;
   }
+  .topfilter{
+    padding: 0;
+    margin-top: 2em;
+  }
+  .topfilter h3{
+    text-align: center;
+  }
+}
+@media(max-width:400px)
+{
+  .content .card-container{
+    padding : 0;
+  }
 }
 
 
